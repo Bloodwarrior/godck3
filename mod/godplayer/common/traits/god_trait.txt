@@ -16,6 +16,12 @@ player_god_trait = {
         stewardship = 100
         intrigue = 100
         learning = 100
+        prowess = 100
     }
     health = 100
+    fertility = 10.0
+    monthly_prestige = 100
+    monthly_piety = 100
+    general_opinion = 50
+    same_faith_opinion = 75
 }

@@ -1,3 +1,5 @@
 l_english:
     player_god_trait:0 "God"
     player_god_trait_desc:0 "This character is a divine being with unlimited power."
+ miracle_heal_decision:0 "Perform Miracle Heal"
+ miracle_heal_decision_desc:0 "Use divine power to heal the chosen character of any wounds or illness."

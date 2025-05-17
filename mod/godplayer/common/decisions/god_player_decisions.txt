@@ -1,0 +1,21 @@
+miracle_heal_decision = {
+    picture = GFX_evt_character_divine
+    desc = miracle_heal_decision_desc
+
+    is_shown = {
+        has_trait = player_god_trait
+    }
+    is_valid = {
+        target.is_alive = yes
+    }
+    effect = {
+        target = {
+            # Remove common injuries and illnesses
+            if = { limit = { has_trait = wounded_1 } remove_trait = wounded_1 }
+            if = { limit = { has_trait = wounded_2 } remove_trait = wounded_2 }
+            if = { limit = { has_trait = wounded_3 } remove_trait = wounded_3 }
+            if = { limit = { has_trait = ill } remove_trait = ill }
+        }
+    }
+    ai_potential = { factor = 0 }
+}
