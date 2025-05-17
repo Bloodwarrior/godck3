@@ -1,0 +1,21 @@
+player_god_trait = {
+    levels = {
+        level_1 = {
+        }
+    }
+    icon = trait_holy_warrior
+    immortal = yes
+    inheritable = yes
+    ai_creation_factor = 0
+    ai_will_do = {
+        factor = 0
+    }
+    skill = {
+        diplomacy = 100
+        martial = 100
+        stewardship = 100
+        intrigue = 100
+        learning = 100
+    }
+    health = 100
+}
