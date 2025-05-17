@@ -1,0 +1,19 @@
+heal_character_interaction = {
+    category = personal
+    ai_potential = { always = no }
+    effect = {
+        if = {
+            limit = { scope:recipient.exists }
+            scope:recipient = {
+                add_character_modifier = {
+                    modifier = health_boost_temporary
+                    months = 1
+                }
+                remove_trait = wounded_1
+                remove_trait = wounded_2
+                remove_trait = wounded_3
+                remove_trait = ill
+            }
+        }
+    }
+}
