@@ -1,3 +1,5 @@
 l_english:
     player_god_trait:0 "God"
     player_god_trait_desc:0 "This character is a divine being with unlimited power."
+    player_god_heal_interaction:0 "Heal Character"
+    player_god_heal_interaction_desc:0 "Use your divine power to heal [recipient.GetShortUIName]."
