@@ -1,0 +1,22 @@
+heal_character_interaction = {
+    interface_priority = 100
+    icon = interaction_heal
+
+    desc = player_god_heal_interaction_desc
+    is_highlighted = yes
+
+    from_potential = {
+        has_trait = player_god_trait
+    }
+    to_potential = {
+        is_alive = yes
+    }
+
+    ai_potential = {
+        factor = 0
+    }
+
+    on_accept = {
+        add_health = 100
+    }
+}
